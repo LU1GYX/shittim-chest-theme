@@ -1,0 +1,30 @@
+{
+  "name": "shittim-chest-theme",
+  "displayName": "Blue Archive Theme",
+  "description": "VSCode themes inspired by Arona and Plana from Blue Archive",
+  "version": "1.0.0",
+  "publisher": "LU1GYX",
+  "engines": { "vscode": "^1.70.0" },
+  "categories": ["Themes"],
+  "keywords": ["blue archive", "arona", "plana", "anime", "cyan", "glassmorphism"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Arona (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/Arona-color-theme.json"
+      },
+      {
+        "label": "Plana (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Plana-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LU1GYX/shittim-chest-theme"
+  }
+}
